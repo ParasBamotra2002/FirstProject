@@ -1,0 +1,67 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    text-align: center;
+    margin: 0px;
+}
+header{
+    background-color: rgb(2, 84, 100);
+    border-radius: 10px;
+}
+li{
+ 
+    list-style: none;
+    padding: 15px;
+    font-style: italic;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: rgb(229, 124, 35);
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns:3fr 0.5fr;
+    grid-template-rows: 3fr 0.5fr;
+    gap: 10px;
+ 
+
+}
+.signup{
+ 
+    background-color: rgb(232, 170, 66);
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+.content{
+
+    background-color: rgb(232, 170, 66);
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(221, 61, 61);
+    border-radius: 10px;
+    margin-top: -85px;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+body{
+    background-color: rgba(220, 209, 209, 0.558);
+}
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    background-color: azure;
+}
